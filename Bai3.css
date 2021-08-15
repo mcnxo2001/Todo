@@ -1,0 +1,80 @@
+body{
+    background-color: #e5e5e5;
+    display: flex;
+    flex-direction: column;
+    margin: 10rem auto 3rem;
+    width: 18rem;
+}
+.top{
+    border-radius: 10px 10px 0 0;
+    background-color: #3da8fb ;
+    display: flex;
+    flex-direction: row;
+    height: 3rem;
+    padding-top: 20px;
+}
+.top button{
+    margin-left: 10px;
+    height: 2rem;
+    background-color: aqua;
+    border: none;
+    border-radius: 10px;
+}
+.top button:hover{
+    background-color: rgb(240, 81, 81);
+    text-decoration: underline;
+}
+.intro{
+    padding-left: 2rem;
+    font-size: 20px;
+    color: white;
+}
+.mid{
+    background-color: white;
+    padding-left: 10px;
+    height: 25rem;
+    border-radius: 0 0 10px 10px;
+}
+.name_in{
+    padding-top: 10px;
+    font-size: 20px;
+    padding-bottom: 10px;
+}
+.name input{
+    width: 93%;
+    height: 1.5rem;
+}
+.detail input{
+    width: 93%;
+    height: 10rem;
+}
+.save{
+    border-radius: 8px;
+    border: none;
+    background-color: #3da9fc;
+    margin-top: 10px;
+    width: 40%;
+    height: 3rem;
+    font-size: 20px;
+    color: white;
+}
+.save:hover{
+    background-color: #2d7cb9;
+    text-decoration: underline;
+}
+.delete {
+    margin-right: 11px;
+    float: right;
+    border-radius: 8px;
+    border: none;
+    background-color: #ef4565;
+    margin-top: 10px;
+    width: 40%;
+    height: 3rem;
+    font-size: 20px;
+    color: white;
+}
+.delete:hover{
+    background-color: #b8364e;
+    text-decoration: underline;
+}
